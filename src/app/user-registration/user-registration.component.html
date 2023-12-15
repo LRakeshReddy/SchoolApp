@@ -1,17 +1,8 @@
-<html>
-    <main>
-        <body>
-            <div id="urEnterDetailsText">
-                Please enter Login Details!
-            </div>
-            <div id="urEnterDetails">
-                <input type="text" id="urUserName" placeholder="User Name">
-                <input type="password" id="urPassword" placeholder="Password">
-                <input type="submit" id="urLogIn" placeholder="Login">
-            </div>
-            <div id="urNewUser">
-                <button id="urNewUserRegistration">New Here? Sign Up!</button>
-            </div>
-        </body>
-    </main>
-</html>
+<div id="urEnterDetailsText">
+    Please enter Login Details!
+</div>
+<div id="urEnterDetails">
+    <input type="text" id="urUserName" placeholder="User Name" required>
+    <input type="password" id="urPassword" placeholder="Password">
+    <input type="submit" id="urLogIn" placeholder="Login" (click)="logDetails()">
+</div>
